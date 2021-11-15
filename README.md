@@ -3,7 +3,7 @@ A complete Chat App using technolgies given below
 
 ## SETUP
 0. fork the repository
-1. git clone https://github.com/rachitgupta98/React-Chat-App
+1. git clone https://github.com/DanielPickens/React-Message-App
 2. npm install
 3. npm start
 4. app running happy coding
