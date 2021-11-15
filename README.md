@@ -1,6 +1,6 @@
 ## React Message App
 
-## Tech Stack
+
 ## React,  Nodejs, MongoDB, Socket.io.
 
 ## SETUP
