@@ -6,11 +6,11 @@ Tech Stack:
  ```
 
 ## SETUP
-0. fork the repository
-1. git clone https://github.com/DanielPickens/React-Message-App
-2. npm install
-3. npm start
-4. app running happy coding
+1. fork the repository
+2. git clone https://github.com/DanielPickens/React-Message-App
+3. npm install
+4. npm start
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
