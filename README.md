@@ -1,4 +1,6 @@
-A complete Chat App using technolgies given below
+## React Message App
+
+## Tech Stack
 ## React,  Nodejs, MongoDB, Socket.io.
 
 ## SETUP
