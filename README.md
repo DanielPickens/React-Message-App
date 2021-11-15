@@ -1,7 +1,9 @@
 ## React Message App
 
-
-## React,  Nodejs, MongoDB, Socket.io.
+Tech Stack:
+```
+ React,  Nodejs, MongoDB, Socket.io.
+ ```
 
 ## SETUP
 0. fork the repository
