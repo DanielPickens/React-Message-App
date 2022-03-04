@@ -8,7 +8,7 @@ const PORT = 4000;
 
 //setup mongoose
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/chatapp", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost/ReactMessageApp", { useNewUrlParser: true });
 mongoose.connection
   .once("open", function() {
     console.log("connection established");
@@ -38,7 +38,7 @@ io.on("connection", function(socket) {
   };
 
   users++;
-  socket.emit("newclientconnect", { description: "Hey, welcome!" });
+  socket.emit("newclientconnect", { description: "Hello, welcome!" });
 
   //no of online user
   io.sockets.emit("broadcast", { description: users + " " + "is connected" });
