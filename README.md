@@ -2,7 +2,7 @@
 
 Tech Stack:
 ```
- React, Nodejs, MongoDB
+ React, Nodejs, MongoDB, CSS, HTML
  ```
 
 
