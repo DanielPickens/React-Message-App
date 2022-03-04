@@ -2,7 +2,7 @@
 
 Tech Stack:
 ```
- React,  Nodejs, MongoDB, Socket.io.
+ React, Nodejs, MongoDB
  ```
 
 
