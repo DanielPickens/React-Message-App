@@ -1124,7 +1124,7 @@
     "watchpack-chokidar2": "^2.0.1",
     "wbuf": "^1.7.3",
     "webidl-conversions": "^7.0.0",
-    "webpack": "^4.19.1",
+    "webpack": "^10.0.5",
     "webpack-dev-middleware": "^3.4.0",
     "webpack-dev-server": "^3.1.14",
     "webpack-log": "^2.0.0",
