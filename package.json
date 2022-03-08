@@ -1180,7 +1180,7 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
-   "build": ""
+   "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
