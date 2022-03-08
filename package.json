@@ -1180,7 +1180,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "if-node-version '>= 17' && react-scripts --openssl-legacy-provider build || react-scripts build"
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "repository": {
     "type": "git",
