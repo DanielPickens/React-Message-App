@@ -21,7 +21,9 @@
     "whatwg-fetch": "^3.0.0"
   },
   "scripts": {
-    
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "start": "webpack-dev-server",
+   "build": "webpack"
   },
   "proxy": "http://localhost:4000",
   "eslintConfig": {
