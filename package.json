@@ -1,26 +1,23 @@
-
 {
-  "name": "react_chat_app",
+  "name": "cool-chat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.16.4",
-    "moment": "^2.24.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-router-dom": "^4.3.1"
-    "react-dots-loader": "^1.1.4",
-    "react-scripts": "2.1.8",
-    "semantic-ui-react": "^0.85.0",
-    "socket.io": "^2.2.0",
-    "uuid": "^3.3.2"
+    "axios": "^0.21.2",
+    "fsevents": "^2.1.2",
+    "react": "^16.13.1",
+    "react-app-env": "^1.2.3",
+    "react-bootstrap": "^0.32.4",
+    "react-chat-elements": "^10.8.0",
+    "react-dom": "^16.13.1",
+    "react-notifications": "^1.6.0",
+    "react-scripts": "^3.4.1",
+    "react-router-dom": "^4.3.1",
+    "socket.io-client": "^2.3.0"
   },
   "scripts": {
-    "start": "index.js",
-    "react": "react-scripts start",
-    "server": "nodemon server/index.js",
-    "online": "node server/index.js", 
-    "build": "react-scripts build",
+    "start": "react-app-env start",
+    "build": "react-app-env build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,6 +31,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-15": "^1.4.1",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest-enzyme": "^7.1.2"
   }
 }
