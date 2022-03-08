@@ -7,6 +7,6 @@ RUN git clone https://github.com/DanielPickens/React-Message-App
 WORKDIR /React-Message-App
 # All of the files are already there, so we only need to
 RUN npm install
-RUN npm install -g node-gyp
+
 EXPOSE 8080
 CMD ["pm2", "start", "./bin/ww"]
