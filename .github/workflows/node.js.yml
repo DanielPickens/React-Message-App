@@ -23,5 +23,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    
+    - run: RUN npm install -g node-gyp
     - run: npm run build
